@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/vida_juego_main.dir/src/vida_juego.cc.o CMakeFiles/vida_juego_main.dir/src/vida_juego_main.cc.o  -o vida_juego_main 

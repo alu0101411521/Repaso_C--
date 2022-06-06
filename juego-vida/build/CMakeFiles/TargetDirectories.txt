@@ -1,0 +1,5 @@
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/build/CMakeFiles/juego_test.dir
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/build/CMakeFiles/tablero_test.dir
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/build/CMakeFiles/celula_test.dir

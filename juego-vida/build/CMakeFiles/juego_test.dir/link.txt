@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/juego_test.dir/test/juego_main.cc.o CMakeFiles/juego_test.dir/src/celula.cc.o CMakeFiles/juego_test.dir/src/tablero.cc.o CMakeFiles/juego_test.dir/src/vida_juego.cc.o  -o juego_test 

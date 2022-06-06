@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/tablero.dir/test/tablero_main.cc.o CMakeFiles/tablero.dir/src/celula.cc.o CMakeFiles/tablero.dir/src/tablero.cc.o  -o tablero 

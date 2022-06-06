@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/celula.h
+iostream
+-
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/tablero.h
+iostream
+-
+vector
+-
+celula.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/celula.h
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/vida_juego.h
+stdlib.h
+-
+time.h
+-
+iostream
+-
+vector
+-
+../include/tablero.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/tablero.h
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/src/tablero.cc
+../include/tablero.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/tablero.h
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/src/vida_juego.cc
+../include/vida_juego.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/vida_juego.h
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/test/juego_main.cc
+../include/vida_juego.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/proyectos/juego-vida/include/vida_juego.h
+
