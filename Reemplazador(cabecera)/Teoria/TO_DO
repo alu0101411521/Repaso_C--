@@ -1,0 +1,66 @@
+${current_file}
+${current_date}
+
+Archivo entrada:
+Nombre: Endika Pradera 
+Correo: endikapradera@gmail.com
+Fecha: ${current_date}
+archivo: ${current_file}
+
+Archivo target
+Nombre: Endika Pradera 
+Correo: endikapradera@gmail.com
+Fecha: 24-02-2022
+archivo: TODO.txt
+
+dadasda
+asd
+asd
+ads
+ads
+ads
+ad
+asd
+ads
+
+Clase Fichero: 
+  std::vector<string> texto -> por cada indice del vector es una linea del fichero
+
+  ruta : documentos/hola.txt
+  nombre: hola.txt
+
+  Fichero()
+  Fichero(ruta)
+
+  Abrir(ruta)
+  Leer()
+  Escribir() 
+
+  sobrecarga de operador << con ostream
+  sobrecarga de operador >> con istream
+
+  // Para leer la cabecera:
+
+  1) guardar en un vector la cabecera pasada por linea de comandos
+  2) pasamos el vector_cab a la funcion que detecta los ${current_file} y nos lo cambia
+  3) insertar ese vector en el texto_ 
+  4) mostramos el fichero cambiado
+
+  // Ruta de una carpeta  |  Fichero && Cabecera
+
+  // std::regex 
+
+  // Si es una carpeta
+    // Por cada fichero de la carpeta
+      // Creamos una variable de clase Fichero con la ruta del fichero actual
+      // Sustituir en el fichero la cabeza
+  // else 
+      Leemos el fichero y sustituimos
+  
+  // Sustituir(fichero que estamos leyendo)
+      if (current_file) cambiar donde este el current file por el nombre del fichero
+      if (current_dates) cambiar donde este el current_date por la fecha que calcularemos
+      if ()
+      if ()
+
+

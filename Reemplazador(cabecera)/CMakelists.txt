@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(remplazador)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_library(remplazador STATIC)
+
+target_sources(remplazador
+  PRIVATE src/fichero.cc
+  PRIVATE src/fecha.cc
+  PRIVATE src/parseador.cc
+)
+
+target_include_directories(remplazador PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/include)
+
+target_compile_options(remplazador PUBLIC "-std=c++17")
+
+add_subdirectory(tests)

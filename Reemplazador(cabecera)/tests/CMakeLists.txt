@@ -1,0 +1,8 @@
+add_executable(fichero_main fichero_main.cc)
+target_link_libraries(fichero_main remplazador)
+
+add_executable(fecha_main fecha_main.cc)
+target_link_libraries(fecha_main remplazador)
+
+add_executable(parseador_main parseador_main.cc)
+target_link_libraries(parseador_main remplazador)
