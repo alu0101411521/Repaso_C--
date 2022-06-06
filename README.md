@@ -9,3 +9,6 @@ Ejercicios de pilas (Repaso de algoritmia y estructura de datos)
 
 Ejercicio de fibonacci (modificado)
 
+Ejercicio del juego de la vida
+
+Reemplazador (cabecera ficheros) 
