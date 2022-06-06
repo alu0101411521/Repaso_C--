@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/Fibonacci/include/fibonacci.h
+iostream
+-
+vector
+-
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/Fibonacci/src/fibonacci_main.cc
+iostream
+-
+string
+-
+../include/fibonacci.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/Fibonacci/include/fibonacci.h
+

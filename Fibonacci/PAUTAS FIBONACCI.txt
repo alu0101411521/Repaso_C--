@@ -1,0 +1,55 @@
+Práctica Fibonacci mejorado.
+
+Como hemos visto en prácticas anteriores a la hora de calcular algunos índices 
+Fibonacci el algoritmo hace cálculos redundantes 
+(https://es.m.wikipedia.org/wiki/Archivo:FibbonacciRecurisive.png). 
+
+Es por eso que, en esta práctica, diseñaremos una clase Fibonacci para 
+poder evitar estos cálculos ¿Cómo? Generando un vector de soluciones por 
+cada índice de Fibonacci y este debe estar contenido dentro de nuestra clase. 
+
+Si el valor que queremos calcular no está dentro del vector lo calcularemos de 
+forma normal, en caso contrario utilizaremos la solución contenida en el índice 
+correspondiente del vector.
+
+La práctica deja un amplio abanico de implementaciones dejando que el 
+programador la diseñe a su gusto pero, conteniendo los criterios anteriores.
+
+-----------------------------------------------------------------------
+PASOS A HACER PARA FIBNACCI:
+HACER LOS CONSTRUCTORES NECESARIOS(SIN PARAMETROS Y CON PARAMETRO POR REFERENCIA)
+HACER UN DESTRUCTOR POR DEFECTO
+
+HACER UNA TRAZA SOBRE LOS METODOS A UTILIZAR
+VER QUE ATRIBUTOS VAMOS A HACER
+    1)DEFINIR SU VISIBILIDAD 
+
+DEFINIR LOS METODOS PARA CALCULAR EL FIBONACCI
+
+ACORDARME DE PONER EL #PRAGMA ONCE
+
+CREAR LA TEMPLATE<TIPO LO QUE SEA>, PARA QUE EL FIBONACCI SIRVA PARA CUALQUIER COSA
+-------------------------------------------------------------------------
+  if (val_usuario ==  1) return "a";
+  if (val_usuario ==  2) return "b";
+  if (val_usuario > 2) return Fibonacci(val_usuario - 2) + Fibonacci(val_usuario - 1);
+--------------------------------------------------------------------------
+Caso de uso.
+ main {
+    Fibonacci<std::string> fibo("hola", "adios");
+    std::cout << fibo.Calculate(20) << std::endl;
+    std::cout << fibo << std::endl;
+
+    Fibonacci<int> fibo(0, 1);
+    std::cout << fibo.Calculate(20) << std::endl;
+    std::cout << fibo << std::endl;
+ }
+ ---------------------
+PARA EL PROXIMO DIA:
+SOBRECARGA OPERADOR << 
+-------------------------
+indice 1 = solucion_1
+indice 2 = solucion_2
+indice 3 = solucion_3
+...
+indice n = solucion_n
