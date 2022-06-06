@@ -1,0 +1,3 @@
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/REPASO_AyED/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/REPASO_AyED/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/REPASO_AyED/build/CMakeFiles/dll.dir

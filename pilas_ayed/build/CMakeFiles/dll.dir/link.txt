@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/dll.dir/src/main.cc.o  -o dll 

@@ -1,0 +1,21 @@
+metodos que necesitaremos:
+-Insercion(push)
+-Extracción(pop)
+-top
+-empty
+-size
+
+
+
+Atributos:
+-stack
+-datos_pila
+
+
+
+
+ Pila estatica con lista doblemente enlazada
+ terminar funcion Empty y Top
+ Top: Devuelve el elemento más arriba de la pila
+ OJO: No lo extrae
+

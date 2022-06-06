@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/REPASO_AyED/include/stack.h
+iostream
+-
+vector
+-
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/REPASO_AyED/src/main.cc
+iostream
+-
+../include/stack.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/REPASO_AyED/include/stack.h
+
