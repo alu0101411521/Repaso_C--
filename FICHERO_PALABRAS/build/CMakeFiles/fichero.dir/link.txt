@@ -1,0 +1,1 @@
+/usr/bin/c++  -O0 -fsanitize=address -pedantic-errors -Wall -Wextra -DDEBUG -ggdb  -rdynamic CMakeFiles/fichero.dir/src/funciones.cc.o CMakeFiles/fichero.dir/src/main.cc.o CMakeFiles/fichero.dir/src/pair.cc.o  -o fichero 

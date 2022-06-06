@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/include/funciones.h
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+pair.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/include/pair.h
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/include/pair.h
+iostream
+-
+string
+-
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/src/funciones.cc
+../include/funciones.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/include/funciones.h
+
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/src/main.cc
+iostream
+-
+../include/funciones.h
+/mnt/c/Users/ENDIKA PRADERA/OneDrive/Desktop/CLASES CON ANTONIO/SEGUNDO CUATRIMESTRE/FICHERO_PALABRAS/include/funciones.h
+
